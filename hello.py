@@ -62,8 +62,8 @@ def is_palindrome(s):
     if s[0] != s[-1]:
         return False
     return is_palindrome(s[1:-1])
-print("Palindrome" if is_palindrome("level") else "Not palindrome")  # Palindrome
-print("Palindrome" if is_palindrome("hello") else "Not palindrome")  # Not palindrome
+print("Palindrome" if is_palindrome("level")else "Not palindrome")  # Palindrome
+print("Palindrome" if is_palindrome("hello")else "Not palindrome")  # Not palindrome
 #task 11
 def sum_array(arr, i=0):
     if i == len(arr):
