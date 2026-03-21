@@ -1,7 +1,4 @@
 # task 1
-from ctypes.wintypes import HRESULT
-
-
 def print_1_to_n(n):
     if n == 0:
         return
