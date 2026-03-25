@@ -90,7 +90,7 @@ def linear_search(arr,target,i=0):
     if arr[i] == target:
         return True
     return linear_search(arr,target,i+1)
-print("Found" if linear_search([4,7,1,9,3],9)else "Not found")
+print("Found" if linear_search([4,7,1,9,3],9)else"Not found")
 #task 15
 def is_sorted(arr,i=0):
     if i>=len(arr)-1:
