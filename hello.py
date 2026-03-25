@@ -1,11 +1,11 @@
-# task 1
+#task 1
 def print_1_to_n(n):
     if n == 0:
         return
     print_1_to_n(n - 1)
     print(n, end=' ')
 print_1_to_n(5)
-# task 2
+#task 2
 def print_n_to_1(n):
     if n == 0:
         return
@@ -54,7 +54,6 @@ def fibonacci(n):
     if n==1: return 1
     return fibonacci(n-1)+fibonacci(n-2)
 print(fibonacci(6))
-#task 10
 # task 10
 def is_palindrome(s):
     if len(s)<=1:
