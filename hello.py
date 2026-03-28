@@ -75,13 +75,6 @@ def max_array(arr,i=0):
         return arr[i]
     return max(arr[i], max_array(arr,i+1))
 print(max_array([4,9,1,7,3]))
-#task 13
-def count_occurrences(arr, target, i=0):
-    if i == len(arr):
-        return 0
-    match=1 if arr[i] == target else 0
-    return match+count_occurrences(arr,target,i+1)
-print(count_occurrences([1,2,3,2,2,5],2))
 #task 14
 def linear_search(arr,target,i=0):
     if i == len(arr):
