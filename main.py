@@ -269,8 +269,6 @@ def heapSort(nums):
     for i in range(n - 1, 0, -1):
         nums[0], nums[i] = nums[i], nums[0]
         heapify(i, 0)
-
-
 print("=" * 50)
 print("Task 12-Heap Sort")
 a = [12, 11, 13, 5, 6, 7]; heapSort(a); print(a)  # [5,6,7,11,12,13]
